@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux';
-import placeholder from './placeholder';
+import { combineReducers } from "redux";
+import loadQuestion from "./loadQuestion";
 
 export default combineReducers({
-  placeholder
+  loadQuestion
 });

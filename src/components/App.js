@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import QuizQuestionContainer from "../containers/QuizQuestionContainer";
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
       <div>
-        App contents go here
+        <QuizQuestionContainer />
       </div>
-    )
+    );
   }
 }
 
